@@ -1,0 +1,131 @@
+.profile{
+    max-width: 100%;
+    position: relative;
+    margin: 0;
+
+    background: rgba(0, 0, 0, 0.776);
+    color: var(--primary-white);
+}
+
+
+.profile::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('../../assets/fruit2.jpg') no-repeat center center/cover;
+    z-index: -1;
+
+}
+
+.profile__container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 95px;
+
+}
+
+
+.profile__img{
+    --padding-left: 2rem;
+    width: 100%;
+}
+
+.pro-name{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 4rem;
+    padding-left: var(--padding-left);
+    max-width: max-content;
+    padding: .5rem 1.5rem;
+    margin: 2rem 2rem;
+    border-radius: 20rem 0 20rem 0;
+
+
+    background: linear-gradient(114deg, rgba(2,2,36,1) 3%, rgba(1,70,84,1) 8%, rgba(2,0,36,1) 38%);
+
+    box-shadow: 1px 4px 10px 5px rgba(129,242,215,1);
+    -webkit-box-shadow: 1px 4px 10px 5px rgba(129,242,215,1);
+    -moz-box-shadow: 1px 4px 10px 5px rgba(129,242,215,1);
+}
+
+.profile__image .pro-img{
+        max-width: 340px;
+        border-radius: 50%;
+        padding-bottom: 1rem;
+        background: linear-gradient(114deg, rgba(2,2,36,1) 3%, rgba(1,70,84,1) 8%, rgba(2,0,36,1) 38%);
+
+    box-shadow: 1px 4px 10px 5px rgba(129,242,215,1);
+    -webkit-box-shadow: 1px 4px 10px 5px rgba(129,242,215,1);
+    -moz-box-shadow: 1px 4px 10px 5px rgba(129,242,215,1);
+}
+
+.pro-my-img{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.pro-my-img h1{
+    font-size: var(--h1-font);
+    align-self: center;
+    border-radius: .5rem;
+    padding: .2rem 1.5rem;
+    border-radius: 20rem 0 20rem 0;
+    margin-top: 1rem;
+
+
+    background: linear-gradient(114deg, rgba(2,2,36,1) 3%, rgba(1,70,84,1) 8%, rgba(2,0,36,1) 38%);
+
+    box-shadow: 1px 4px 10px 5px rgba(129,242,215,1);
+    -webkit-box-shadow: 1px 4px 10px 5px rgba(129,242,215,1);
+    -moz-box-shadow: 1px 4px 10px 5px rgba(129,242,215,1);
+}
+
+.pro-follower{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 2rem ;
+}
+
+.pro-follower h1{
+
+}
+
+.pro-follower p{
+    font-size: 0.70rem;
+}
+
+.pro-follow{
+    display: grid;
+    align-items: center;
+    border-radius: .5rem;
+
+    padding: 0.5rem 1.5rem;
+
+    background: linear-gradient(114deg, rgba(2,2,36,1) 3%, rgba(1,70,84,1) 8%, rgba(2,0,36,1) 38%);
+
+    box-shadow: 1px 4px 10px 5px rgba(129,242,215,1);
+    -webkit-box-shadow: 1px 4px 10px 5px rgba(129,242,215,1);
+    -moz-box-shadow: 1px 4px 10px 5px rgba(129,242,215,1);
+
+}
+
+@media screen and (max-width: 620px) {
+    .profile__image .pro-img{
+        max-width: 300px;
+        border-radius: 50%;
+}
+
+}
+
+
+
